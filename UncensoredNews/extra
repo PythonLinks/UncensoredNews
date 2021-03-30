@@ -1,0 +1,17 @@
+
+{{!-- The main content area --}}
+<figure class="kg-card kg-code-card">
+
+    {{!-- Main --}}
+    <main id="main">
+        {{#page}}
+            <div>
+                {{title}}	    
+                {{content}}
+            </div>
+        {{/page}}
+    </main>
+
+<figcaption>Snippet from a custom home page template</figcaption>
+
+</figure>
