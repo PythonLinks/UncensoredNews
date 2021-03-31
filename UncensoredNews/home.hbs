@@ -13,7 +13,10 @@ into the {body} of the default.hbs template --}}
         {{#page}}
 	<center>
             <div >
-	   <div style = "max-width: 30em;text-align:left;">                {{content}}
+	   <div style = "max-width: 30em;text-align:left;">
+	   {{#if content}}
+	   {{content}}
+	   {{/if}}
 		</div>
             </div>
            </center>

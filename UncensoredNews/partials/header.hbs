@@ -22,14 +22,18 @@ margin-bottom: 10px;
     style = "position:relative; 
       z-axis:100"
     >
-            {{@site.title}}
+    {{#if @site.title}}
+      {{@site.title}}
+    {{/if}}	    
     </h1>
     <center
     style = "position:relative; 
       z-axis:100;
       padding: 0 20px 0 20px">
       <div style = "max-width: 40em">
-    {{@site.description}}
+     {{#if @site.description}}
+       {{@site.description}}
+     {{/if}}  
     </div>
    </center>
 </div>
