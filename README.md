@@ -1,13 +1,13 @@
 # Uncensored News
 
 The world has a problem, that the Mainstream Media throttles access to progressive news.  It is not clear
-censorshiplike Tienamen Square in China, the progressive news is just throttled, the
+censorship like Tienamen Square in China, the progressive news is just throttled, the
 algorithms do not show that information frequently  You can help circumvent this media throttling by
 using the Uncensored News theme on your blog.  There will be a regular stream of fresh news articles,
 giving your readers a good reason to return, and sign up for your email newsletter.  From which I hope you make
 some money in order to support your progressive organization or favorite candidate. 
 
-#So to install this theme, you need to do two things.  Upload both the theme zip file.  At your Ghost web site navigate to /ghost/settings/theme and upload the zip file.
+So to install this theme, you need to do two things.  Upload both the theme zip file.  At your Ghost web site navigate to /ghost/settings/theme and upload the zip file.
 
 And at /ghost/settings/labs upload the routes.yaml file. 
 
