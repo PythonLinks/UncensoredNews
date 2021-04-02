@@ -1,5 +1,43 @@
 <div class="site-header-content">
    
+<div style = "margin-top:20px;
+width: 100vw;
+max-width: 100vw;
+position:absolute;
+z-index: 100;
+">
+            {{#if @site.logo}}
+
+ <img style = "float:left; 
+max-height:150px; 
+max-width:30vw;
+border-radius:30%;
+margin-left: 30px;
+margin-bottom: 10px;
+"
+ src="{{img_url @site.logo size="xl"}}" alt="{{@site.title}}" />
+        {{/if}}
+
+    <h1
+    style = "position:relative; 
+      z-axis:100"
+    >
+    {{#if @site.title}}
+      {{@site.title}}
+    {{/if}}	    
+    </h1>
+    <center
+    style = "position:relative; 
+      z-axis:100;
+      padding: 0 20px 0 20px">
+      <div style = "max-width: 40em">
+     {{#if @site.description}}
+       {{@site.description}}
+     {{/if}}  
+    </div>
+   </center>
+</div>
+
  {{#if @site.cover_image}}
         {{!-- This is a responsive image, it loads different sizes depending on device
         https://medium.freecodecamp.org/a-guide-to-responsive-images-with-ready-to-use-templates-c400bd65c433 --}}
