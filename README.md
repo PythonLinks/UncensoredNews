@@ -1,7 +1,7 @@
 # Uncensored News
 This Ghost theme is perfect for politicians and progessive organizations.   The politician's image (or Organizational Logo) is floated left. The title and biline are user editable.
 
-![Theme Appearance](../Banner.png "Theme Appearance")
+![Theme Appearance](./Banner.png "Theme Appearance")
 
 The world has a problem, that the Mainstream Media throttles access to progressive news.  It is not clear
 censorship like Tienamen Square in China, the progressive news is just throttled, the
